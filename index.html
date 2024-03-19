@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="options">
+
+       
+            <div>
+                <label for="">Votre message :</label>
+                <textarea name="message" id="message" cols="45" rows="6" placeholder="Tappez votre message ici..."></textarea>
+            </div> 
+            <div class="grid">
+                <div>
+                    <label for="">Taille de la police :</label>
+                    <select name="taille" id="font-size">
+                        <option value="petit">petit</option>
+                        <option value="moyen">moyen</option>
+                        <option value="grand">grand</option>
+                    </select>
+                </div> 
+    
+                <div>
+                    <label for="">couleur du texte :</label>
+                    <input type="color" id="txt-color" placeholder="Insérez une couleur">
+                </div>  
+    
+                <div>
+                    <label for="">couleur de l'arriere plan :</label>
+                    <input type="color" id="bg-color" placeholder="Insérez une couleur">
+                </div>  
+    
+                <div>
+                    <label for="">URL de l'image de fond :</label>
+                    <input type="url" id="img-url" placeholder="Insérez une url">
+                </div>
+            </div>
+            
+            <p class="error">veuillez remplir tous les champs</p>
+
+            <button id="button">Appliquer les réglages</button>
+        </div>
+
+        <div class="generated-card">
+           <p>Votre message apparaitra ici...</p>
+        </div>
+    </div>
+
+
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
